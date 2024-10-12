@@ -53,7 +53,7 @@ export default function Form() {
   return (
     <div className={styles.container}>
       <main className={[styles.main, displayFormClass].join(' ')}>
-      <img src="didi.JPG" alt="vercelisawuss" className={styles.circularImg}/>
+      <Image src="didi.JPG" alt="vercelisawuss" className={styles.circularImg}/>
         <h1 className={styles.title2}>
           Happy Birthday <a href="https://www.urbandictionary.com/define.php?term=Queen">Queen</a>
         </h1>
