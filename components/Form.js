@@ -53,7 +53,16 @@ export default function Form() {
   return (
     <div className={styles.container}>
       <main className={[styles.main, displayFormClass].join(' ')}>
-      <img src="didi.JPG" alt="vercelisawuss" className={styles.circularImg}/>
+      <div className={styles.circularImageWrapper}>
+      <Image 
+        src="/didi.JPG" // Make sure the image is in the public directory or import it properly
+        alt="Resized Circular Image"
+        layout="intrinsic"
+        width={140}  // Adjust these numbers according to the required size
+        height={180}
+        className={styles.circularImage} // Add circular class for styling
+      />
+    </div>
         <h1 className={styles.title2}>
           Happy Birthday <a href="https://www.urbandictionary.com/define.php?term=Queen">Queen</a>
         </h1>
